@@ -99,6 +99,7 @@ func TestUsecaseCustomer_DeleteCustomerById(t *testing.T) {
 			}
 
 			mockRepo.EXPECT().GetCustomerById(tt.args.id).Return(&entities.Customer{}, nil)
+
 			mockRepo.EXPECT().DeleteCustomerById(tt.args.id, gomock.Any()).Return(nil).Times(1)
 
 			if err := uc.DeleteCustomerById(tt.args.id); (err != nil) != tt.wantErr {

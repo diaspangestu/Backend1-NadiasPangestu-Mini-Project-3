@@ -12,7 +12,7 @@ type UsecaseAdminInterface interface {
 	LoginAdmin(username, password string) (entities.Actor, error)
 	RegisterAdmin(admin LoginAdminParam) (entities.Actor, error)
 	GetAdminById(id uint) (entities.Actor, error)
-	UpdateCustomerById(id uint, admin AdminParam) (entities.Actor, error)
+	UpdateAdminById(id uint, admin AdminParam) (entities.Actor, error)
 	DeleteAdminById(id uint) error
 	// customer
 	DeleteCustomerById(id uint) error
@@ -22,7 +22,7 @@ type UsecaseAdminInterface interface {
 }
 
 type UsecaseAdmin struct {
-	adminRepo repositories.Admin
+	adminRepo repositories.AdminRepositoryInterface
 }
 
 func (uc UsecaseAdmin) LoginAdmin(id uint, username, password string) (*entities.Actor, string, error) {
@@ -55,8 +55,6 @@ func (uc UsecaseAdmin) RegisterAdmin(admin LoginAdminParam) (*entities.Actor, er
 		RoleID:     2,
 		IsVerified: entities.False,
 		IsActived:  entities.False,
-		CreatedAt:  time.Now(),
-		UpdatedAt:  time.Now(),
 	}
 
 	createAdmin, err := uc.adminRepo.RegisterAdmin(newAdmin)
@@ -76,7 +74,7 @@ func (uc UsecaseAdmin) GetAdminById(id uint) (entities.Actor, error) {
 	return *admin, nil
 }
 
-func (uc UsecaseAdmin) UpdateCustomerById(id uint, admin AdminParam) (entities.Actor, error) {
+func (uc UsecaseAdmin) UpdateAdminById(id uint, admin AdminParam) (entities.Actor, error) {
 	hashPass := helpers.HashPass(admin.Password)
 
 	// Get Existing Admin Data
@@ -117,8 +115,6 @@ func (uc UsecaseAdmin) CreateCustomer(customer CustomerParam) (entities.Customer
 		LastName:  customer.LastName,
 		Email:     customer.Email,
 		Avatar:    customer.Avatar,
-		CreatedAt: time.Now(),
-		UpdatedAt: time.Now(),
 	}
 
 	_, err := uc.adminRepo.CreateCustomer(newCustomer)

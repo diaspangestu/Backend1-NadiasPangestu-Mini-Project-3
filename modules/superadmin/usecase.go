@@ -76,8 +76,6 @@ func (uc UsecaseSuperadmin) CreateCustomer(customer CustomerParam) (entities.Cus
 		LastName:  customer.LastName,
 		Email:     customer.Email,
 		Avatar:    customer.Avatar,
-		CreatedAt: time.Now(),
-		UpdatedAt: time.Now(),
 	}
 
 	_, err := uc.superadminRepo.CreateCustomer(newCustomer)

@@ -22,7 +22,6 @@ type AdminRepositoryInterface interface {
 	GetCustomerByEmail(email string) (*entities.Customer, error)
 	DeleteCustomerById(id uint, customer *entities.Customer) error
 	GetAllCustomers(first_name, last_name, email string, page, pageSize int) ([]*entities.Customer, error)
-	FetchCustomersFromAPI() ([]*entities.Customer, error)
 	SaveCustomersFromAPI(url string) error
 }
 

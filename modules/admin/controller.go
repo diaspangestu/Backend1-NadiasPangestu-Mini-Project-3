@@ -81,7 +81,7 @@ func (ctrl ControllerAdmin) GetAdminById(id uint) (interface{}, error) {
 }
 
 func (ctrl ControllerAdmin) UpdateAdminById(id uint, admin AdminParam) (interface{}, error) {
-	updatedAdmin, err := ctrl.uc.UpdateCustomerById(id, admin)
+	updatedAdmin, err := ctrl.uc.UpdateAdminById(id, admin)
 	if err != nil {
 		return dto.ErrorResponse{}, err
 	}
