@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ad2329c-086d-47e6-934c-b087f7dc2801" name="Changes" comment="initiate mini project 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/admin/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin/controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/admin/usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin/usecase.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/customer/usecase_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/modules/customer/usecase_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/superadmin/usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/modules/superadmin/usecase.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/superadmin/usecase_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/modules/superadmin/usecase_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repositories/admin.go" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/admin.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

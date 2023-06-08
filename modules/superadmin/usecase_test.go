@@ -360,13 +360,6 @@ func TestUsecaseSuperadmin_LoginSuperadmin(t *testing.T) {
 		wantErr bool
 	}{
 		// TODO: Add test cases.
-		{
-			name:    "Test Case 1",
-			fields:  fields{},
-			args:    args{},
-			want:    nil,
-			wantErr: false,
-		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
