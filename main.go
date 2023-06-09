@@ -7,9 +7,15 @@ import (
 	"github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/customer"
 	"github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/superadmin"
 	"github.com/gin-gonic/gin"
+	"github.com/joho/godotenv"
 )
 
 func main() {
+	err := godotenv.Load()
+	if err != nil {
+		panic(err)
+	}
+
 	router := gin.New()
 
 	// open connection db
