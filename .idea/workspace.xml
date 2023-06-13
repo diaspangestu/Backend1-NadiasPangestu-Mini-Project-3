@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ad2329c-086d-47e6-934c-b087f7dc2801" name="Changes" comment="initiate mini project 3">
-      <change beforePath="$PROJECT_DIR$/modules/admin/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin/controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/customer/usecase_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/modules/customer/usecase_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/admin.go" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/admin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/gorm.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/gorm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocks/mock_admin_repository.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,38 @@
     </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="deploy/docker" />
+                    <option name="lastUsedInstant" value="1686274936" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1686274935" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,21 +84,14 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
-  <component name="RunManager" selected="Go Test.TestUsecaseSuperadmin_LoginSuperadmin/Test_Case_1 in github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/superadmin">
-    <configuration name="TestUsecaseAdmin_SaveCustomersFromAPI in github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/admin" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Backend2-NadiasPangestu-Mini-Project-2" />
-      <working_directory value="$PROJECT_DIR$/modules/admin" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/admin" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestUsecaseAdmin_SaveCustomersFromAPI\E$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.go test github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/superadmin">
     <configuration name="TestUsecaseAdmin_UpdateAdminById/Test_Case_1 in github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/admin" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Backend2-NadiasPangestu-Mini-Project-2" />
       <working_directory value="$PROJECT_DIR$/modules/admin" />
@@ -75,16 +104,16 @@
       <pattern value="^\QTestUsecaseAdmin_UpdateAdminById\E$/^\QTest_Case_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestUsecaseAdmin_UpdateCustomerById/Test_Case_1 in github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/admin" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUsecaseSuperadmin_LoginSuperadmin in github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/superadmin" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Backend2-NadiasPangestu-Mini-Project-2" />
-      <working_directory value="$PROJECT_DIR$/modules/admin" />
+      <working_directory value="$PROJECT_DIR$/modules/superadmin" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/admin" />
+      <package value="github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/superadmin" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestUsecaseAdmin_UpdateCustomerById\E$/^\QTest_Case_1\E$" />
+      <pattern value="^\QTestUsecaseSuperadmin_LoginSuperadmin\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestUsecaseSuperadmin_LoginSuperadmin/Test_Case_1 in github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/superadmin" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -97,6 +126,17 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestUsecaseSuperadmin_LoginSuperadmin\E$/^\QTest_Case_1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/superadmin" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Backend2-NadiasPangestu-Mini-Project-2" />
+      <working_directory value="$PROJECT_DIR$/modules/superadmin" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/superadmin" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <configuration name="go test modules" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -112,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/superadmin" />
+        <item itemvalue="Go Test.TestUsecaseSuperadmin_LoginSuperadmin in github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/superadmin" />
         <item itemvalue="Go Test.TestUsecaseSuperadmin_LoginSuperadmin/Test_Case_1 in github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/superadmin" />
         <item itemvalue="Go Test.go test modules" />
         <item itemvalue="Go Test.TestUsecaseAdmin_UpdateAdminById/Test_Case_1 in github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/admin" />
-        <item itemvalue="Go Test.TestUsecaseAdmin_UpdateCustomerById/Test_Case_1 in github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/admin" />
-        <item itemvalue="Go Test.TestUsecaseAdmin_SaveCustomersFromAPI in github.com/diaspangestu/Backend1-NadiasPangestu-Mini-Project-2/modules/admin" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +169,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
