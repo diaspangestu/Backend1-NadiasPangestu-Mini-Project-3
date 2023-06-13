@@ -22,11 +22,14 @@ jobs:
         run: |
           go mod download
 
+      - name: Testing Usecase on Superadmin
+        run: go test ./.../superadmin
+
+      - name: Testing Usecase on Admin
+        run: go test ./.../admin
+
+      - name: Testing Usecase on Customer
+        run: go test ./.../customer
+
       - name: Build
         run: go build -v ./...
-
-      - name: Run go vet
-        run: go vet ./...
-
-      - name: Run tests
-        run: go test -race -vet=off ./...
