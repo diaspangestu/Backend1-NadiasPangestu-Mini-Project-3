@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ad2329c-086d-47e6-934c-b087f7dc2801" name="Changes" comment="initiate mini project 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/gorm.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/gorm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocks/mock_admin_repository.go" beforeDir="false" />
-    </list>
+    <list default="true" id="6ad2329c-086d-47e6-934c-b087f7dc2801" name="Changes" comment="initiate mini project 3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,12 +27,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="deploy/docker" />
-                    <option name="lastUsedInstant" value="1686274936" />
+                    <option name="branchName" value="deploy/cicd" />
+                    <option name="lastUsedInstant" value="1686642840" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1686274935" />
+                    <option name="lastUsedInstant" value="1686642784" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="deploy/docker" />
+                    <option name="lastUsedInstant" value="1686274936" />
                   </RecentBranch>
                 </list>
               </option>
