@@ -31,5 +31,8 @@ jobs:
       - name: Testing Usecase on Customer
         run: go test ./.../customer
 
+      - name: Testing Usecase with verbose
+        run: go test -v ./...
+
       - name: Build
         run: go build -v ./...
